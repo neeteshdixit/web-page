@@ -1,9 +1,14 @@
 import MyButton from './component/MyButton.jsx'
 import Var_fun from './component/Var_Fun.jsx'
+import Count from './count/Count.jsx'
+import Random from './count/Random.jsx'
 function universe(){
   return <>
     <div className="universe">
       <Var_fun/>
+      <Count/>
+      <Random/>
+      <Random/>
       <h1>Universe</h1>
       <form>
         name : <input type="text" name="name" placeholder="Enter your name" />
